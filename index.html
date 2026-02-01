@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Siswa - Siap untuk Masa Depan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Kode CSS tetap sama seperti sebelumnya */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        /* ... (CSS tetap sama) ... */
+    </style>
+</head>
+<body>
+    <!-- Student-inspired accents -->
+    <div class="student-accent student-accent-1"></div>
+    <div class="student-accent student-accent-2"></div>
+    
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">Portfolio<span>Siswa</span></a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">Tentang Saya</a>
+                    <a href="#projects">Proyek Sekolah</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn"><i class="fas fa-chevron-up"></i></button>
+        <button class="nav-btn next-btn"><i class="fas fa-chevron-down"></i></button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h4>Halo, saya adalah</h4>
+                    <h1>Rizki Pratama</h1>
+                    <h2>Siswa SMA & Calon Web Developer</h2>
+                    <p>Saya seorang siswa SMA yang bersemangat dalam teknologi dan pemrograman web. Saya sedang mempelajari HTML, CSS, JavaScript, dan berbagai teknologi web lainnya untuk mengasah kemampuan saya di dunia digital.</p>
+                    <div>
+                        <a href="#projects" class="btn">Lihat Proyek Saya</a>
+                        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <div class="profile-frame">
+                       <div class="profile-photo">
+                           <img src="https://i.ibb.co.com/gZMf94Gh/hunterxhunter.jpg" alt="Killua Zoldyck - Hunter x Hunter" style="width: 100%; height: 100%; object-fit: cover;">
+                       </div>
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Section - YANG SUDAH DIPERBAIKI -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="about-container">
+                    <div class="about-photo">
+                        <div class="about-img-container">
+                            <div class="about-img">
+                                <img src="https://i.ibb.co.com/gZMf94Gh/hunterxhunter.jpg" alt="Gon Freecss - Hunter x Hunter" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                    </div> <!-- TAG PENUTUP YANG BENAR -->
+                    
+                    <div class="about-text">
+                        <p>Saya adalah siswa kelas 11 SMA Negeri 1 Kota dengan minat yang kuat dalam teknologi informasi dan pengembangan web. Sejak pertama kali mengenal pemrograman di kelas 10, saya langsung tertarik dan terus belajar secara mandiri.</p>
+                        <p>Saya aktif mengikuti ekstrakurikuler <span class="highlight">IT Club</span> di sekolah dan pernah menjadi peserta dalam lomba coding tingkat kota. Selain belajar di sekolah, saya juga mengikuti kursus online dan tutorial untuk memperdalam pengetahuan saya tentang web development.</p>
+                        <p>Keahlian yang sedang saya pelajari:</p>
+                        
+                        <div class="skills-container">
+                            <div class="skill-item">HTML & CSS</div>
+                            <div class="skill-item">JavaScript Dasar</div>
+                            <div class="skill-item">Bootstrap</div>
+                            <div class="skill-item">UI/Design Dasar</div>
+                            <div class="skill-item">Git & GitHub</div>
+                            <div class="skill-item">Python Dasar</div>
+                            <div class="skill-item">Responsive Design</div>
+                            <div class="skill-item">Figma Dasar</div>
+                        </div>
+                        
+                        <div class="education-container">
+                            <div class="education-item">
+                                <h3>SMA Negeri 1 Kota</h3>
+                                <span class="date">2021 - Sekarang</span>
+                                <p>Jurusan IPA, aktif dalam kegiatan IT Club dan ekstrakurikuler komputer. Mengikuti pelajaran tambahan pemrograman.</p>
+                            </div>
+                            <div class="education-item">
+                                <h3>SMP Negeri 3 Kota</h3>
+                                <span class="date">2018 - 2021</span>
+                                <p>Pertama kali mengenal pemrograman dasar melalui mata pelajaran TIK. Pernah menjadi juara 2 lomba membuat presentasi interaktif.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="projects-content">
+                <h2 class="section-title">Proyek Sekolah & Pribadi</h2>
+                <p class="about-text" style="margin-bottom: 30px;">Berikut adalah beberapa proyek yang telah saya buat selama belajar web development, baik untuk tugas sekolah maupun proyek pribadi.</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #7cc0ff, #1e90ff);">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Website Sekolah</h3>
+                            <p>Proyek tugas TIK membuat website profil sekolah dengan informasi guru, jadwal pelajaran, dan ekstrakurikuler. Menggunakan HTML, CSS, dan JavaScript.</p>
+                            <a href="#" class="btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #87ceeb, #4682b4);">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Kalkulator Sains</h3>
+                            <p>Aplikasi web kalkulator untuk pelajaran fisika dan matematika dengan fitur perhitungan trigonometri, konversi satuan, dan grafik sederhana.</p>
+                            <a href="#" class="btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #b0e0e6, #5f9ea0);">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portal Belajar Online</h3>
+                            <p>Website sederhana untuk berbagi materi pelajaran dengan teman sekelas. Dilengkapi dengan forum diskusi dan upload tugas.</p>
+                            <a href="#" class="btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #98d8e8, #3a7ca5);">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Game Edukasi Matematika</h3>
+                            <p>Game sederhana berbasis web untuk belajar matematika dengan cara yang menyenangkan. Dibuat dengan JavaScript Canvas.</p>
+                            <a href="#" class="btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #a8d5e5, #2c6a8a);">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Jadwal Pelajaran Digital</h3>
+                            <p>Aplikasi web untuk mengelola jadwal pelajaran dengan notifikasi pengingat dan fitur pencatatan tugas.</p>
+                            <a href="#" class="btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #c1e7f5, #1e4a6e);">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Blog Pribadi</h3>
+                            <p>Website blog untuk mencatat perjalanan belajar pemrograman dan berbagi pengetahuan dengan teman-teman.</p>
+                            <a href="#" class="btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <p class="about-text">Saya terbuka untuk diskusi tentang proyek kolaborasi, belajar bersama, atau kesempatan magang. Jangan ragu untuk menghubungi saya melalui formulir di bawah ini.</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Alamat Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subjek (contoh: Kolaborasi Proyek)" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                </form>
+                
+                <div style="margin-top: 50px; padding: 25px; background: linear-gradient(135deg, #f8fbff, #e6f2ff); border-radius: 15px; border-left: 5px solid #1e90ff;">
+                    <h3 style="color: #1e3a8a; margin-bottom: 15px;">Informasi Kontak</h3>
+                    <p style="color: #4169e1; margin-bottom: 10px;"><i class="fas fa-envelope" style="margin-right: 10px; color: #1e90ff;"></i> rizki.pratama@email.com</p>
+                    <p style="color: #4169e1; margin-bottom: 10px;"><i class="fas fa-phone" style="margin-right: 10px; color: #1e90ff;"></i> +62 812-3456-7890</p>
+                    <p style="color: #4169e1;"><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: #1e90ff;"></i> Kota, Jawa Barat, Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+            <p>&copy; 2023 Rizki Pratama - Portfolio Siswa</p>
+            <p style="opacity: 0.8; margin-top: 10px;">"Belajar hari ini untuk sukses esok hari"</p>
+            <p style="opacity: 0.6; margin-top: 10px; font-size: 14px;">Dibuat dengan HTML, CSS, dan JavaScript</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            // Update section title animations
+            updateSectionAnimations();
+            
+            // Update student accent animations
+            updateStudentAccents();
+        });
+
+        // Update student accent positions
+        function updateStudentAccents() {
+            const accents = document.querySelectorAll('.student-accent');
+            const scrollY = window.scrollY;
+            
+            accents.forEach((accent, index) => {
+                const speed = 0.3 + (index * 0.1);
+                const yPos = scrollY * speed;
+                accent.style.transform = `translateY(${yPos}px)`;
+            });
+        }
+
+        // Section title animation on scroll
+        function updateSectionAnimations() {
+            const sectionTitles = document.querySelectorAll('.section-title');
+            const projectCards = document.querySelectorAll('.project-card');
+            const formGroups = document.querySelectorAll('.form-group');
+            
+            sectionTitles.forEach(title => {
+                const rect = title.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    title.classList.add('in-view');
+                }
+            });
+            
+            projectCards.forEach((card, index) => {
+                const rect = card.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    setTimeout(() => {
+                        card.classList.add('in-view');
+                    }, index * 200);
+                }
+            });
+            
+            formGroups.forEach((group, index) => {
+                const rect = group.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    setTimeout(() => {
+                        group.classList.add('in-view');
+                    }, index * 200);
+                }
+            });
+        }
+
+        // Next/Previous buttons functionality
+        const sections = document.querySelectorAll('section');
+        const nextBtn = document.querySelector('.next-btn');
+        const prevBtn = document.querySelector('.prev-btn');
+        
+        let currentSectionIndex = 0;
+        
+        nextBtn.addEventListener('click', () => {
+            if (currentSectionIndex < sections.length - 1) {
+                currentSectionIndex++;
+                scrollToSection(currentSectionIndex);
+            }
+        });
+        
+        prevBtn.addEventListener('click', () => {
+            if (currentSectionIndex > 0) {
+                currentSectionIndex--;
+                scrollToSection(currentSectionIndex);
+            }
+        });
+        
+        function scrollToSection(index) {
+            window.scrollTo({
+                top: sections[index].offsetTop - 80,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Update current section index on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            // Update current section index
+            sections.forEach((section, index) => {
+                if (section.getAttribute('id') === current) {
+                    currentSectionIndex = index;
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.querySelector('.contact-form');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Add loading effect on submit
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Mengirim...';
+            submitBtn.disabled = true;
+            
+            setTimeout(() => {
+                alert('Terima kasih! Pesan Anda telah terkirim. Saya akan membalas secepat mungkin.');
+                this.reset();
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 1500);
+        });
+
+        // Initialize animations on load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateSectionAnimations();
+            updateStudentAccents();
+            
+            // Hero content animations
+            const heroElements = document.querySelectorAll('.hero h4, .hero h1, .hero h2, .hero p, .hero .btn');
+            heroElements.forEach((el, index) => {
+                el.style.animationDelay = `${index * 0.2}s`;
+            });
+            
+            // Profile photo animation
+            const profileFrame = document.querySelector('.profile-frame');
+            profileFrame.style.animation = 'float 6s ease-in-out infinite';
+        });
+    </script>
+</body>
+</html>
